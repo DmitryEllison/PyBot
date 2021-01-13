@@ -38,7 +38,7 @@ elif '' in event.text.lower():
 '''
 
 # Авторизация
-vk_session = vk_api.VkApi(token='f3e21bc3a1bd758dcaa6a18b6455a034c215f1e724182591b5f0f243cc7c1e3810b9a1d843ae6f71a8820')
+vk_session = vk_api.VkApi(token='MyToken')
 
 longpoll = VkLongPoll(vk_session)
 vk = vk_session.get_api()
