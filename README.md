@@ -1,2 +1,2 @@
 # PyBot
-This bot is a experience in using Vk Api
+This bot is my experience in using Vk Api
