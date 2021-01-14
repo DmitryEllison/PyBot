@@ -88,7 +88,7 @@ class vkBot():
 # Запускаем нашу машинку
 if __name__ == "__main__":
     # Уникальный токен сообщества
-    token = "1683bfc2fae91ae2023865fa1431382b2014a83270b5f784a971cd8506077b0ffe12e36bf8016ab129bf6"
+    token = "MyToken"
     myVkBot = vkBot(token)  # Создаем объект - чат бота
     vk_session = myVkBot.authorization() # Проходим авторизацию
     myVkBot.runChatBot(vk_session) # Запускаем
