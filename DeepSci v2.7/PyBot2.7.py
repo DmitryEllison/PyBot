@@ -157,7 +157,7 @@ class vkBot():
                 person.switchActivity("USUAL")
             elif len(event.text) != 1:
                 self.sendAnswer(vk_session, event, "Сейчас ты играешь в Виселицу! Чтобы преждевременно закончить игру нажми на 'Хватит'")
-            elif hangman.HP == 0:
+            elif hangman.HP == 1:
                 self.sendAnswer(vk_session, event, "У вас не осталось жизней!\nПопробуй угадать слово заново.")
                 person.switchActivity("USUAL")
             else:
